@@ -1,0 +1,8 @@
+.chatsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.all {
+    overflow-y: auto;
+}

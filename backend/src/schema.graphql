@@ -1,0 +1,24 @@
+    type Message {
+        id: ID!
+        user: String!
+        content: String!
+    }
+
+    type User{
+        name: String!
+    }
+
+    type Query {
+        messages: [Message!]
+        users: [User!]
+    }
+
+    type Mutation {
+        addMessage(user: String!, content: String!): ID!
+        connectUser(user: String): String
+        disconnectUser(user: String): String
+    }
+
+    type Subscription {
+        messages: [Message]
+    }

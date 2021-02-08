@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    min-height: 100%;
+}
+
+body {
+    background: #2B2727;
+    background-size: cover;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+body,
+input,
+button {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    margin: 80px auto 0;
+    max-width: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoutButton {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 3em;
+    border-color: #f05a5b;
+    border-radius: 10px;
+    padding: 0 20px;
+    font-size: 1em;
+    font-weight: bold;
+    background: #2B2727;
+    color: #f05a5b;
+    cursor: pointer;
+}
+
+.usersContainer {
+    width: 50%;
+    background-color: #211E1E;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-left: 1em;
+    border-radius: 20px;
+}
+
+.usersContainer h1 {
+    color: white
+}
+
+.content {
+    width: 100%;
+    background: #211E1E;
+    margin-top: 50px;
+    padding: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.content>p {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.content h2 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.content form {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+.content form label {
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.content form label span {
+    font-weight: normal;
+    color: #999;
+    font-size: 12px;
+}
+
+.content form input {
+    width: 80%;
+    border-radius: 10px;
+    height: 45px;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.content button.btn {
+    border: 0;
+    border-radius: 10px;
+    height: 42px;
+    padding: 0 20px;
+    font-size: 1em;
+    font-weight: bold;
+    background: #f05a5b;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 0.5em;
+}
+
+.content button.btn:hover {
+    background: #e14f50;
+}
