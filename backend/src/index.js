@@ -5,7 +5,7 @@ const path = require('path');
 const Message = require('./models/Message');
 const { subscribe } = require('graphql');
 
-mongoose.connect('mongodb+srv://admin:1401@cluster0.6u86t.mongodb.net/gyrachallenge?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://<username>:<password>@cluster0.6u86t.mongodb.net/<database>?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
